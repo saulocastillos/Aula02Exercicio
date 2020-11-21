@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Aula02Exercicio.CodePlusXamlPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout x:Name="StackLayoutTest" Spacing="15" Padding="15">
+            <StackLayout.Children>
+                <Label Text="Hello from XAML!"
+                    IsVisible="True" 
+                    Opacity="0.75" 
+                    HorizontalTextAlignment="Center" 
+                    VerticalOptions="CenterAndExpand"
+                    TextColor="#ffffff" 
+                    BackgroundColor="#000000" 
+                    FontSize="Large" 
+                    FontAttributes="Bold,Italic" 
+                />
+                <Label Text="Saulo Silva Castilhos!"
+                    IsVisible="True" 
+                    Opacity="0.75" 
+                    HorizontalTextAlignment="Center" 
+                    VerticalOptions="CenterAndExpand"
+                    TextColor="#ffffff" 
+                    BackgroundColor="red" 
+                    FontSize="Large" 
+                    FontAttributes="Bold,Italic" 
+                />
+                </StackLayout.Children>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+
